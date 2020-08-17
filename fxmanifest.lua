@@ -10,7 +10,10 @@ client_scripts {
     
     'client/camera.lua',
     'client/functions.lua',
-    'client/quests.lua',
+
+    'modules/client/quests/quests.lua',
+    'modules/client/characters/charlist.lua',
+    'modules/client/characters/dialogsHandler.lua',
 
 }
 
