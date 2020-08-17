@@ -1,0 +1,2 @@
+Ghost.initializeGame = function()
+end
