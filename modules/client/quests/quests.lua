@@ -5,15 +5,15 @@ Quests = {
     currentHasQuestActive = false,
 
     startQuest = function(id)
-        currentQuestID = id,
-        currentHasQuestActive = true,
+        currentQuestID = id
+        currentHasQuestActive = true
         loadQuestModels(id)
         Quests[id].create()
     end,
 
     endQuest = function()
-        currentQuestID = nil,
-        currentHasQuestActive = false,
+        currentQuestID = nil
+        currentHasQuestActive = false
         if nextQuest ~= nil then
             startQuest(nextQuest)
             nextQuest = nil
